@@ -3,7 +3,6 @@
 set -e
 
 umask 0002
-chmod g+w /data/*
 
 if [[ ! $VOTIFIER_VERSION ]]; then 
   >&2 echo "[warn] \$VOTIFIER_VERSION not set, using latest"
