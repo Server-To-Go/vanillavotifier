@@ -1,0 +1,9 @@
+help                  Visualizza tutti i comandi disponibili.
+info                  Visualizza informazioni riguardanti VanillaVotifier.
+stop                  Arresta il server di VanillaVotifier.
+restart               Riavvia il server di VanillaVotifier.
+genkeypair [key-size] Genera una nuova coppia di chiavi per VanillaVotifier.
+                      key-size valore predefinito 2048.
+showkey <(pub|priv)>  Visualizza la chiave pubblica/privata corrente.
+testquery <query>     Invia una query cifrata al server di VanillaVotifier.
+testvote <IGN>        Emula l'invio di un voto da parte di IGN al server.

@@ -1,0 +1,9 @@
+help                  Displays all available commands.
+info                  Displays information about VanillaVotifier.
+stop                  Stops the VanillaVotifier server.
+restart               Restarts the VanillaVotifier server.
+genkeypair [key-size] Generates new RSA keys for the VanillaVotifier server.
+                      Key-size defaults to 2048.
+showkey <(pub|priv)>  Displays the current public/private key.
+testquery <query>     Sends an enciphered query to VanillaVotifier itself.
+testvote <IGN>        Sends a vote as IGN to VanillaVotifier itself.
